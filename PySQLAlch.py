@@ -58,7 +58,7 @@ insert_data_into_MySQLdatabase(
             "Trusted_Connection=yes;"
         ),
         person_id = '6',
-        last_name = 'Teste', 
+        last_name = 'Teste2', 
         first_name = 'Silvio', 
         age = '15',
     )
