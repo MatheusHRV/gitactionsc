@@ -17,11 +17,6 @@ def insert_data_into_MySQLdatabase(connection_string,
                                    age):
     
     connection_string = connection_string
-    print(connection_string)
-    print(person_id)
-    print(last_name)
-    print(first_name)
-    print(age)
     engine = create_engine(f"mssql+pyodbc:///?odbc_connect={connection_string}")
     Session = sessionmaker(bind=engine)
     session = Session()
@@ -57,9 +52,9 @@ insert_data_into_MySQLdatabase(
             "Database=SampleDB;"
             "Trusted_Connection=yes;"
         ),
-        person_id = '6',
-        last_name = 'Testeabc', 
-        first_name = 'Silvio', 
+        person_id = '7',
+        last_name = 'Testeab', 
+        first_name = 'SilvioS', 
         age = '15',
     )
 
